@@ -1,0 +1,16 @@
+[package]
+name = "Embedded-Rust_Lab"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+panic-halt = "0.2.0"
+cortex-m = "0.7.6"
+cortex-m-rt = "0.7.1"
+embedded-time = "0.12.0"
+embedded-hal = "0.2.7"
+adafruit-feather-rp2040 = "0.4.0"
+ws2812-pio = "0.4.0"
+fugit = "0.3.5"
+smart-leds = "0.3.0"
+lis3dh = "0.4.2"
